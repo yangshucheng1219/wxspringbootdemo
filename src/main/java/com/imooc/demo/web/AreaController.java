@@ -53,7 +53,7 @@ public class AreaController {
     }
 
     //主要研究前后端都用DELETE请求的方法出错的问题
-    //test
+    //test2
     @RequestMapping(value = "/removearea",method = RequestMethod.DELETE)
     private Map<String, Object> removeArea(Integer areaId){
         Map<String, Object> modelMap = new HashMap<>();
